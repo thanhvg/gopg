@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestHello(t *testing.T) {
+func TesntHello(t *testing.T) {
 
 	assertCorrectMessage := func(t testing.TB, got, want string) {
 		t.Helper()
